@@ -27,7 +27,11 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ]  Explain benefit(s) using `client-side routing`?
 
+
 > Answer:
+To the best of my understanding in todays age of stronger internet and stronger computers 
+client side routing has become a more common within applications. There are many benefits that client side routing has that server side does not. When we render client side we are not required to reload a full page we can just render the component that needs changed. This also allows for no unneccesary server requests. You also have the ability to implement "lazy loading" so that you can save bandwith and speed initial load. When we use "lazy loading" we are loading the page in pieces as the pieces are needed decreasesing the initial payload. 
+
 
 ## Project Set Up
 
