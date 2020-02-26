@@ -24,7 +24,8 @@ const StyledH1 = styled.h1`
 
 const StyledWrap = styled.div`
   margin: 0 auto;
-  width: 80%;
+  padding: 50px;
+  width: 40%;
   background-color: #b3f74d;
   text-align: center;
 `;
