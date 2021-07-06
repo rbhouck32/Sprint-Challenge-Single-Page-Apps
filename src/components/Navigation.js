@@ -1,12 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import styled from "styled-components";
 
-export default function Header() {
+const Navigation = () => {
   return (
-    <header className="ui centered">
-      <StyledH1>Rick &amp; Morty Fan Page</StyledH1>
-      <div>
+    <div>
+      <div className="App">
+        <h1>React Router Mini</h1>
         <div>
           <Link to="/">Home</Link>
         </div>
@@ -17,10 +16,8 @@ export default function Header() {
           <Link to="/contact">Contact</Link>
         </div> */}
       </div>
-    </header>
+    </div>
   );
-}
+};
 
-const StyledH1 = styled.h1`
-  color: #057487;
-`;
+export default Navigation;
